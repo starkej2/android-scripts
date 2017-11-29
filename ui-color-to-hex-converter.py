@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 #
 # This script converts a UIColor to an equivalent HEX representation
 # Expects input formatted like this: [UIColor colorWithRed:1.000 green:1.000 blue:1.000 alpha:1.000]
@@ -41,7 +41,7 @@ def convert_to_hex(ui_color_value):
 
 
 while True:
-    ui_color_input = raw_input("Enter UIColor definition: ").lower()
+    ui_color_input = input("Enter UIColor definition: ").lower()
 
     red_hex_value = convert_to_hex(get_red(ui_color_input))
     green_hex_value = convert_to_hex(get_green(ui_color_input))
@@ -51,4 +51,4 @@ while True:
     full_hex = red_hex_value + green_hex_value + blue_hex_value if alpha_hex_value == MAX_ALPHA_IN_HEX \
         else alpha_hex_value + red_hex_value + green_hex_value + blue_hex_value
 
-    print "HEX representation: #{hex}".format(hex=full_hex)
+    print("HEX representation: #{hex}".format(hex=full_hex))
