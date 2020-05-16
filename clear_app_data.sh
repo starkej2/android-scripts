@@ -1,6 +1,5 @@
 #!/bin/bash
 #
-# TODO add documentation
 # TODO read in app package and launch activity class parameters
 
 # clear app data

@@ -1,0 +1,64 @@
+{
+    "_meta": {
+        "hash": {
+            "sha256": "46077f5b2b887e7b91d6297492e40aa4a3763589834f184200b9b4dbdd1275ec"
+        },
+        "pipfile-spec": 6,
+        "requires": {
+            "python_version": "3.7"
+        },
+        "sources": [
+            {
+                "name": "pypi",
+                "url": "https://pypi.org/simple",
+                "verify_ssl": true
+            }
+        ]
+    },
+    "default": {
+        "gitdb": {
+            "hashes": [
+                "sha256:91f36bfb1ab7949b3b40e23736db18231bf7593edada2ba5c3a174a7b23657ac",
+                "sha256:c9e1f2d0db7ddb9a704c2a0217be31214e91a4fe1dea1efad19ae42ba0c285c9"
+            ],
+            "version": "==4.0.5"
+        },
+        "gitpython": {
+            "hashes": [
+                "sha256:864a47472548f3ba716ca202e034c1900f197c0fb3a08f641c20c3cafd15ed94",
+                "sha256:da3b2cf819974789da34f95ac218ef99f515a928685db141327c09b73dd69c09"
+            ],
+            "version": "==3.1.2"
+        },
+        "lizard": {
+            "hashes": [
+                "sha256:21994effc04979e80973ae603f02ada19405a773e3aa55795fa952fbb6c0e894",
+                "sha256:d7295be98d43d79cf4bb8daf0cdcdc2d32a238a3e4981a4adf9a628a8a3a1f9d"
+            ],
+            "version": "==1.17.3"
+        },
+        "pydriller": {
+            "hashes": [
+                "sha256:4eba1bc75a07e711230834140143b154c73cf3117177081c5ddcdcee8ded751b",
+                "sha256:d7317e7e8bc57727c3ac0357771e749b2390b5dabe39064693c29632c0009b45"
+            ],
+            "index": "pypi",
+            "version": "==1.15.1"
+        },
+        "pytz": {
+            "hashes": [
+                "sha256:a494d53b6d39c3c6e44c3bec237336e14305e4f29bbf800b599253057fbb79ed",
+                "sha256:c35965d010ce31b23eeb663ed3cc8c906275d6be1a34393a1d73a41febf4a048"
+            ],
+            "version": "==2020.1"
+        },
+        "smmap": {
+            "hashes": [
+                "sha256:54c44c197c819d5ef1991799a7e30b662d1e520f2ac75c9efbeb54a742214cf4",
+                "sha256:9c98bbd1f9786d22f14b3d4126894d56befb835ec90cef151af566c7e19b5d24"
+            ],
+            "version": "==3.0.4"
+        }
+    },
+    "develop": {}
+}
